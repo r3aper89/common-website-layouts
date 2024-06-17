@@ -1,0 +1,38 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.fixed-sidebar-layout {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+header,
+footer {
+	margin: 10px 0;
+	padding: 20px;
+	background-color: #f4f4f4;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+}
+
+aside {
+	width: 250px;
+	padding: 20px;
+	background-color: #d4d4d4;
+	position: fixed;
+	height: 100%;
+}
+
+main {
+	margin-left: 270px;
+	padding: 20px;
+	background-color: #e4e4e4;
+	flex: 1;
+}
